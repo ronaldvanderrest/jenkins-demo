@@ -1,4 +1,5 @@
-FROM jenkins:2.60.3
+FROM jenkins/jenkins:latest
+# commentaar
 USER root
 RUN apt-get update \
  && apt-get install -y \
