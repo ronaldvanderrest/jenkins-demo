@@ -1,5 +1,4 @@
 FROM jenkins/jenkins:latest
-# commentaar
 USER root
 RUN apt-get update \
  && apt-get install -y \
